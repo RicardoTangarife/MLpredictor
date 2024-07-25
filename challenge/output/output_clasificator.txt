@@ -1,0 +1,23 @@
+Model: RandomForestClassifier with Top 10 Features
+Description: RandomForestClassifier is an ensemble learning method based on constructing multiple decision trees during training and outputting the mode of the classes for classification.
+Number of trees (n_estimators): 20
+Random state: 42
+Number of training samples: 8260
+Number of testing samples: 1407
+Accuracy: 0.7583511016346838
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.83      0.83      1033
+           1       0.54      0.56      0.55       374
+
+    accuracy                           0.76      1407
+   macro avg       0.69      0.70      0.69      1407
+weighted avg       0.76      0.76      0.76      1407
+
+Confusion Matrix:
+[[857 176]
+ [164 210]]
+Features used:
+['Demand', 'Charges', 'Contract', 'TechSupport', 'Security', 'PaymentMethod', 'OnlineBackup', 'DeviceProtection', 'Dependents', 'Partner']
+Observations: The dataset was balanced using SMOTE to address class imbalance before training. Features were scaled using StandardScaler.
