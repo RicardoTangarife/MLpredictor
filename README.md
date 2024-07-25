@@ -12,6 +12,7 @@ Además, se incluye un punto opcional para contenedores Docker y otros entregabl
 
 ## Estructura del Repositorio
 
+```
 /project_root
 │
 ├── /challenge
@@ -42,7 +43,7 @@ Además, se incluye un punto opcional para contenedores Docker y otros entregabl
 ├── README.md
 ├── requirements.txt
 └── teoria_.pdf
-
+```
 
 
 ## Instrucciones
