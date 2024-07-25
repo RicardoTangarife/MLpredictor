@@ -1,0 +1,11 @@
+__MACOSX/
+.__MACOSX
+.vscode
+.pytest_cache/
+.pytest_cache
+*.venv
+.venv
+/venv
+.venv
+/reports
+.vscode
